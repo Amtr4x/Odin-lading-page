@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .header,
 .cards,
 .phrase,
@@ -132,4 +133,23 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.phrase {
+    background-color: #e5e7eb;
+    padding-block: 50px;
+}
+
+.phrase__content {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.phrase__author-name {
+    padding-left: 700px;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 20px;
 }
