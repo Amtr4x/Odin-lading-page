@@ -53,7 +53,11 @@
 }
 
 .header__text,
-.nav__link {
+.nav__link,
+.footer,
+.prefooter__card,
+.header__text-btn,
+.prefooter__card-btn {
     color: #e5e7eb;
 }
 
@@ -70,11 +74,11 @@
     border: solid #e5e7eb 2px;
 }
 
-.header__text-btn, .prefooter__card-btn {
+.header__text-btn,
+.prefooter__card-btn {
     background-color: #3882f6;
     border-radius: 6px;
     padding: 5px;
-    color: #e5e7eb;
     font-weight: bolder;
     width: 90px;
     height: 30px;
@@ -94,5 +98,4 @@
     padding-block: 30px;
     padding-inline: 50px;
     align-items: center;
-    color: #e5e7eb;
 }
