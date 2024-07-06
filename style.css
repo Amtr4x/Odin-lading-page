@@ -99,3 +99,8 @@
     padding-inline: 50px;
     align-items: center;
 }
+
+.footer__copyright-text {
+    text-align: center;
+    padding-block: 20px;
+}
