@@ -1,0 +1,155 @@
+* {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.cards,
+.phrase,
+.prefooter {
+    padding-inline: 15%;
+    padding-block: 30px;
+}
+
+.header,
+.footer {
+    background-color: #1f2937;
+}
+
+.nav {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link,
+.card {
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav__logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.nav__link-container {
+    display: flex;
+    gap: 20px;
+}
+
+.header__text-title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header__content {
+    display: flex;
+    gap: 30px;
+}
+
+.header__text,
+.nav__link,
+.footer,
+.prefooter__card,
+.header__text-btn,
+.prefooter__card-btn {
+    color: #e5e7eb;
+}
+
+.header__content-img {
+    width: 700px;
+    height: 150px;
+}
+
+.header__text-btn {
+    border: none;
+}
+
+.prefooter__card-btn {
+    border: solid #e5e7eb 2px;
+}
+
+.header__text-btn,
+.prefooter__card-btn {
+    background-color: #3882f6;
+    border-radius: 6px;
+    padding: 5px;
+    font-weight: bolder;
+    width: 90px;
+    height: 30px;
+}
+
+.header__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.prefooter__card {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+    padding-inline: 50px;
+    align-items: center;
+}
+
+.footer__copyright-text {
+    text-align: center;
+    padding-block: 20px;
+}
+
+.cards__title {
+    text-align: center;
+    padding-block-end: 20px;
+}
+
+.card__pic-placeholder {
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10px;
+    text-align: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.cards__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.phrase {
+    background-color: #e5e7eb;
+    padding-block: 50px;
+}
+
+.phrase__content {
+    font-style: italic;
+    font-size: 26px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.phrase__author-name {
+    padding-left: 700px;
+    color: #1f2937;
+    font-weight: bold;
+    font-size: 20px;
+}
