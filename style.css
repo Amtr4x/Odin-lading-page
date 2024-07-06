@@ -63,8 +63,15 @@
 }
 
 .header__text-btn {
-    background-color: #3882f6;
     border: none;
+}
+
+.prefooter__card-btn {
+    border: solid #e5e7eb 2px;
+}
+
+.header__text-btn, .prefooter__card-btn {
+    background-color: #3882f6;
     border-radius: 6px;
     padding: 5px;
     color: #e5e7eb;
@@ -77,4 +84,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.prefooter__card {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 30px;
+    padding-inline: 50px;
+    align-items: center;
+    color: #e5e7eb;
 }
