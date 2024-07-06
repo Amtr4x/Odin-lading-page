@@ -104,3 +104,32 @@
     text-align: center;
     padding-block: 20px;
 }
+
+.cards__title {
+    text-align: center;
+    padding-block-end: 20px;
+}
+
+.card__pic-placeholder {
+    border: #3882f6 solid 3px;
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-inline: 10px;
+    text-align: center;
+    gap: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.cards__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
